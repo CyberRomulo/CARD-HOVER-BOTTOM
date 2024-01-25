@@ -1,0 +1,115 @@
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.content div {
+    position: relative;
+    width: 500px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.content div:hover img {
+    transform: scale(1.15);
+}
+
+.content div .title-box {
+    content: "";
+    height: 100px;
+    position: absolute;
+    transform: translateY(50px);
+    transition: 0.3s ease;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), black);
+    width: 100px;
+    z-index: 1;
+}
+
+.content div img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    transition: 0.3 ease;
+}
+
+.content div .name {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    color: #f3eeee;
+    transform: translateY(50px);
+    padding: 10px;
+    z-index: 10;
+    transition: .3s ease;
+    cursor: default;
+}
+
+.content div:hover .name,
+.content div:hover .title-box {
+    transform: translateY(0);
+
+}
+
+
+
+
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.content div {
+    position: relative;
+    width: 500px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.content div:hover img {
+    transform: scale(1.15);
+}
+
+.content div .title-box {
+    content: "";
+    height: 100px;
+    position: absolute;
+    transform: translateY(50px);
+    transition: 0.3s ease;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0), black);
+    width: 100px;
+    z-index: 1;
+}
+
+.content div img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    transition: 0.3 ease;
+}
+
+.content div .name {
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    color: #f3eeee;
+    transform: translateY(50px);
+    padding: 10px;
+    z-index: 10;
+    transition: .3s ease;
+    cursor: default;
+}
+
+.content div:hover .name,
+.content div:hover .title-box {
+    transform: translateY(0);
+
+}
